@@ -9,6 +9,6 @@ btnCode = KeyboardButton('♦️ Ввести код')
 mainMenu = ReplyKeyboardMarkup(resize_keyboard = True).add(btnTest, btnTop, btnCode)
 
 # Tests
-btnFirst = KeyboardButton('Новогодний хакатон')
-btnSecond = KeyboardButton('Beautiful Soup')
+btnFirst = KeyboardButton('🎄 Новогодний хакатон')
+btnSecond = KeyboardButton('🍲 Beautiful Soup')
 testsMenu = ReplyKeyboardMarkup(resize_keyboard= True).add(btnFirst,btnSecond,btnMain)
