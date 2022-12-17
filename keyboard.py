@@ -9,6 +9,10 @@ bot = Bot(token=TOKEN)
 
 dp= Dispatcher(bot)
 
+@dp.message_handler(commands=['menu'])
+async def command_menu(message: types.Message):
+    await bot.send_message(message.from_user.id, 'Главное Меню', reply_markup= nav.mainMenu)
+
 @dp.message_handler()
 async def bot_message(message: types.Message):
 
