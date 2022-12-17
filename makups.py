@@ -13,3 +13,7 @@ mainMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnTest, btnTop, btnCod
 btnFirst = KeyboardButton('🎄 Новогодний хакатон')
 btnSecond = KeyboardButton('🍲 Beautiful Soup')
 testsMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnFirst, btnSecond, btnMain)
+
+# Tests 2
+
+tests2Menu = ReplyKeyboardMarkup(resize_keyboard= True).add(btnMain)
