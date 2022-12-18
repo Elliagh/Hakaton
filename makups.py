@@ -15,5 +15,7 @@ btnSecond = KeyboardButton('🍲 Beautiful Soup')
 testsMenu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnFirst, btnSecond, btnMain)
 
 # Tests 2
-
-tests2Menu = ReplyKeyboardMarkup(resize_keyboard= True).add(btnMain)
+btnTg = KeyboardButton('📨 Телеграмм')
+btnVk = KeyboardButton('👥 Вконтакте')
+btnInst = KeyboardButton('📸 Инстаграмм')
+tests2Menu = ReplyKeyboardMarkup(resize_keyboard=True).add(btnTg, btnVk, btnInst, btnMain)
